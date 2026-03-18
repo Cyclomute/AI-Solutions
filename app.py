@@ -1,7 +1,4 @@
 import streamlit as st
-import joblib
-import pandas as pd
-import numpy as np
 
 # Load model and scaler
 model = joblib.load("extra_trees_model.pkl")
